@@ -1,0 +1,25 @@
+/* SearchResult.css */
+
+.search-result {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .search-result h3 {
+    margin: 0;
+  }
+  
+  .search-result a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .search-result a:hover {
+    text-decoration: underline;
+  }
+  
+  .no-url {
+    color: #999;
+  }
+  

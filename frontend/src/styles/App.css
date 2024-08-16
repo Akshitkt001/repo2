@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the footer sticks to the bottom */
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.search-bar {
+  margin: 20px auto;
+  max-width: 800px; /* Adjust as needed */
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.results-container {
+  margin-top: 20px;
+}
+
+.search-result {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-result h3 {
+  margin: 0;
+}
+
+.search-result a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: auto; /* Push footer to the bottom */
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}

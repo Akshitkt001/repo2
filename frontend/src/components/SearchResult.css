@@ -1,0 +1,29 @@
+/* SearchResult.css */
+.search-result-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.result-title a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.result-title a:hover {
+  text-decoration: underline;
+}
+
+.result-snippet {
+  margin: 10px 0;
+}
+
+.result-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.result-link:hover {
+  text-decoration: underline;
+}
